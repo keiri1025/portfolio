@@ -8,26 +8,29 @@
 </head>
 <body>
     <header>
-        <div class="nav">
-
-            <!--ハンバーガーmenuの表示を切り替えるチェックボックス-->
-            <imput id="drawer_input" class="drawer_hidden" type="checkbox"></imput>
+        <div id="menubar-mobile">
+            <div class="nav">
+     <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+     <input id="drawer_input" class="drawer_hidden" type="checkbox">
             
-            <!--ハンバーガーアイコン-->
-            <label for="drawer_input" class="drawer_open"><span></span></label>
-
-            <!--メニュー-->
-            <nav class="nav_content">
-                <ul class="nav_list">
-                    <li class="nav_item"><a href="">メニュー１</a></li>
-                    <li class="nav_item"><a href="">メニュー２</a></li>
-                    <li class="nav_item"><a href="">メニュー３</a></li>
-                    <li class="nav_item"><a href="">メニュー３</a></li>
-                </ul>
-            </nav>
+     <!-- ハンバーガーアイコン -->
+     <label for="drawer_input" class="drawer_open"><span></span></label>
+ 
+                <!--メニュー-->
+                <nav class="nav_content">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="index.html">Home</a></li>
+                        <li class="nav_item"><a href="aboutme.html">Aboutme</a></li>
+                        <li class="nav_item"><a href="">メニュー３</a></li>
+                        <li class="nav_item"><a href="">メニュー３</a></li>
+                        <li class="nav_item"><a href="">メニュー３</a></li>
+                    </ul>
+                </nav>
+            </div>  
         </div>
+        
         <div id="menubar">
-            <div id="logo"><img src="./img/header/logo.png"></div>
+            <div id="logo"><a href="index.html"><img src="./img/header/logo.png"></a></div>
             <div id="menu">
                 <ul>
                     <li><a href="">aboutme</a></li>
@@ -41,7 +44,7 @@
         <div id="header-catch">
             <div id="header-catch-img"><img src="./img/header/header.png" alt=""></div>
             <div id="header-catch-text">
-                <h1>小池輝璃</h1>
+                <h2>小池輝璃</h2>
                 <p>趣味は配信者の配信・動画を見ること。<br>最近はブレワイ実況の動画見てます。</p>
             </div>
         </div>
